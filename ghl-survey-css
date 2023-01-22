@@ -1,0 +1,68 @@
+/* use this css code only for survey form. It will give you the save look and feel of Jotform survey form */
+
+
+/* New form survey funnel css start */
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://msg.everypages.com/surveys/styles/base/jotformbase.css');
+@import url('https://msg.everypages.com/surveys/styles/root/rootvarblackgreen.css');
+
+/* This overrides the default colors in the root var css */
+#_builder-form,:root { /* this overrides the default colors in the base css */
+  --form-main-bg: #;
+  --form-second-bg: #;
+  --main-color-tone: #e8c555;
+  --footer-bg: #e8c555; /* footer background */
+  --step-number-color: #fff;  /* color of step number */
+  --step-number-bg: #e8c555;  /* background of step number */
+  --checkbox-border-color: #e8c555; /* border color of checkboxes */
+  --button-color: #ffffff; /* next button color */
+  --button-hover-color: rgba(0, 0, 0, 0.20); /* Jotform next and prev button hover */
+  --progress-bar: rgba(180, 255, 0, 0.80); /* Jotform progress bar background */
+  --progress-bar-color: #FFF; /* Jotform progress bar item */
+  --progress-bar-border: #000; /* Jotform progress bar item */
+  --progress-bar-sg: #000000; /* Surveygizmo progress bar background */
+  --progress-bar-color-sg: #000; /* Surveygizmo progress bar item */
+  --option-label: #FFFFFF; /* option label color */
+  --option-check: #333333; /* checkbox check color */
+  --option-radio-label: #ffffff; /* option radio label color */
+  --option-radio-bg: #e8c555; /* option radio bg */
+  --option-radio-hover: #a3a3a3; /* option radio label hover */
+  --option-radio-border: #cccccc;  /* option radio label border */
+  --option-radio-image: #d7d7d7; /* option radio image */
+  --option-radio-button-color: #FFFFFF; /* option radio text button color */
+  --option-radio-button-bg: #e8c555; /* option radio text button bg */
+  --option-radio-button-hover: #e8c555; /* option radio text button hover */
+  --select-hightlight: ##e8c555; /* dropdown highlight bg */
+  --select-hightlight-color: #dead0b; /* dropdown highlight color */
+  --heading-color: #FFFFFF; /* headings color */
+  --placeholder-color: #333333; /* input placeholder text color */
+  --question-bg: #; /* question background */
+  --question-label-color: #FFFFFF; /* question label color */
+  --input-border: #cccccc; /* form input border color */
+  --input-color: #000000; /* form input color */
+  --input-bg: #ffffff; /* form input background */
+  --focus-color: #f7f7f7; /* background of your input field when you focus on it */
+  --thank-you-text: #ffffff;
+}
+
+.loader-container + section #_builder-form .form-builder--wrap-questions .form-builder--item .option-radio label{
+    font-size: 26px !important;
+}
+
+#_builder-form .form-builder--wrap-questions .form-builder--item label{
+    font-size: 24px !important;
+    font-weight: normal !important;
+    margin: 10px 0px;
+}
+
+#_builder-form .form-builder--item h1 {
+    line-height: 1.4em !important;
+    font-size: 22px !important;
+}
+#_builder-form .ghl-question-set{
+background-color: #222729 !important;
+    border-radius: 8px !important;
+}
+
+/* <script type="text/javascript" src="https://form.jotform.com/jsform/213448139198060"></script>  */
